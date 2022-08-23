@@ -1,0 +1,39 @@
+main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(imagens/vendas3.webp);
+  background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.all.browsers{
+    margin: 0;
+    padding: 5px;
+    background-color: black;
+}
+
+.borda {
+    transition: 0.3s all ease-in-out;
+    height: 90px;
+    color: aquamarine;
+}
+
+.borda:hover {
+   transform: scale(1.2);
+}
+
+.container {
+    width: 95%;
+    margin: 10px auto;
+}
+
+header {
+    border-bottom: 0.5px solid;
+
+}
+
+
