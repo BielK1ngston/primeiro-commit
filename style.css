@@ -38,9 +38,11 @@ main {
   flex-direction: column;
   gap: 1.5rem;
   align-items: center;
+  color: whitesmoke;
 }
 
 .form h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
 }
 
@@ -72,4 +74,36 @@ main {
 transform: scale(1.5);
 }
 
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.font a {
+  transition: 0.1s all ease-in-out;
+}
+
+.font a:hover {
+  transform: scale(1.1);
+}
+
+a#cadastrar {
+  background-color: transparent;
+  box-sizing: content-box;
+  transition: color 0.3s, background-color 200ms ;
+  padding: 3px 5px;
+  margin-bottom: 20px;
+  margin: 30px 0;
+}
+
+a#recuperar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
